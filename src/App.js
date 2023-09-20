@@ -11,7 +11,7 @@
 //     <div className="App">
 //       <Router>
 //         <Header />
-//         <Routes>
+//         <Routes> 
 //           <Route path='/IMDB-Clone' index element={<Home />}></Route>
 //           <Route path="movie/:id" element={<Movie />}></Route>
 //           <Route path="movies/:type" element={<MovieList />}></Route>
@@ -38,7 +38,7 @@ import Box from "./components/Box/Box";
 const App = () => {
   return (
   <div className="rounded-xl border-2 border-white py-2 px-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
-    <Header />
+    <Header /> //Header Component for challenge 19 of Scaler Challenge
     <Box />
   <Home />
   <Box />
